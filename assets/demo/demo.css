@@ -646,3 +646,27 @@
 #carousel {
   background-color: #0b1011;
 }
+.zone {
+    
+  cursor:pointer;
+ /* height: 50vh;*/
+    
+}
+.black{
+    background: #0b1011; /* Old browsers */
+    background: -moz-linear-gradient(top, #0b1011, #fff); /* FF3.6+ */
+    background: -webkit-linear-gradient(top, #0b1011,#fff); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #0b1011,#fff); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #0b1011,#fff); /* IE10+ */
+    background: linear-gradient(top, #0b1011, #fff); /* W3C */
+}
+/*.bold {
+  margin: 0
+  color: white;
+}*/
+.skills{
+  padding: 100px;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+}
